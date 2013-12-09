@@ -1,0 +1,3 @@
+{"status":0,"id":"","hypotheses":[{"utterance":"what is your name","confidence":0.97335243}]}
+{"status":0,"id":"","hypotheses":[{"utterance":" what is","confidence":0.97205243}]}
+{"status":0,"id":"","hypotheses":[{"utterance":" what is your name","confidence":0.97325243}]}

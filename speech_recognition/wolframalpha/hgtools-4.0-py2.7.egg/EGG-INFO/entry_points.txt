@@ -1,0 +1,6 @@
+[setuptools.file_finders]
+hg = hgtools.plugins:file_finder
+
+[distutils.setup_keywords]
+use_hg_version = hgtools.plugins:version_calc
+

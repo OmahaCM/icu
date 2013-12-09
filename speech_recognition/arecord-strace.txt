@@ -1,0 +1,759 @@
+execve("/usr/bin/arecord", ["arecord", "--verbose", "--duration=5", "-D", "plughw:1,0"], [/* 16 vars */]) = 0
+brk(0)                                  = 0x66000
+uname({sys="Linux", node="RPi", ...})   = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb6fea000
+access("/etc/ld.so.preload", R_OK)      = 0
+open("/etc/ld.so.preload", O_RDONLY)    = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=44, ...}) = 0
+mmap2(NULL, 44, PROT_READ|PROT_WRITE, MAP_PRIVATE, 3, 0) = 0xb6fe9000
+close(3)                                = 0
+open("/usr/lib/arm-linux-gnueabihf/libcofi_rpi.so", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\270\4\0\0004\0\0\0"..., 512) = 512
+lseek(3, 7276, SEEK_SET)                = 7276
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+lseek(3, 7001, SEEK_SET)                = 7001
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 47) = 47
+fstat64(3, {st_mode=S_IFREG|0755, st_size=10170, ...}) = 0
+mmap2(NULL, 39740, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb6fbe000
+mprotect(0xb6fc0000, 28672, PROT_NONE)  = 0
+mmap2(0xb6fc7000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1) = 0xb6fc7000
+close(3)                                = 0
+munmap(0xb6fe9000, 44)                  = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=48566, ...}) = 0
+mmap2(NULL, 48566, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb6fb2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/arm-linux-gnueabihf/librt.so.1", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\300\26\0\0004\0\0\0"..., 512) = 512
+lseek(3, 25312, SEEK_SET)               = 25312
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1320) = 1320
+lseek(3, 24924, SEEK_SET)               = 24924
+read(3, "A0\0\0\0aeabi\0\1&\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 49) = 49
+fstat64(3, {st_mode=S_IFREG|0644, st_size=26632, ...}) = 0
+mmap2(NULL, 57876, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb6fa3000
+mprotect(0xb6fa9000, 28672, PROT_NONE)  = 0
+mmap2(0xb6fb0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5) = 0xb6fb0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/arm-linux-gnueabihf/libasound.so.2", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\360\7\2\0004\0\0\0"..., 512) = 512
+lseek(3, 802268, SEEK_SET)              = 802268
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1160) = 1160
+lseek(3, 801904, SEEK_SET)              = 801904
+read(3, "A0\0\0\0aeabi\0\1&\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 49) = 49
+fstat64(3, {st_mode=S_IFREG|0644, st_size=803428, ...}) = 0
+mmap2(NULL, 802104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb6edf000
+mmap2(0xb6f9f000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc0) = 0xb6f9f000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/arm-linux-gnueabihf/libm.so.6", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\3201\0\0004\0\0\0"..., 512) = 512
+lseek(3, 426468, SEEK_SET)              = 426468
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1160) = 1160
+lseek(3, 426136, SEEK_SET)              = 426136
+read(3, "A0\0\0\0aeabi\0\1&\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 49) = 49
+fstat64(3, {st_mode=S_IFREG|0644, st_size=427628, ...}) = 0
+mmap2(NULL, 458912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb6e6e000
+mprotect(0xb6ed6000, 28672, PROT_NONE)  = 0
+mmap2(0xb6edd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x67) = 0xb6edd000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/arm-linux-gnueabihf/libdl.so.2", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0(\t\0\0004\0\0\0"..., 512) = 512
+lseek(3, 8652, SEEK_SET)                = 8652
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1160) = 1160
+lseek(3, 8320, SEEK_SET)                = 8320
+read(3, "A0\0\0\0aeabi\0\1&\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 49) = 49
+fstat64(3, {st_mode=S_IFREG|0644, st_size=9812, ...}) = 0
+mmap2(NULL, 41136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb6e63000
+mprotect(0xb6e65000, 28672, PROT_NONE)  = 0
+mmap2(0xb6e6c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1) = 0xb6e6c000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/arm-linux-gnueabihf/libpthread.so.0", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\274V\0\0004\0\0\0"..., 512) = 512
+lseek(3, 82712, SEEK_SET)               = 82712
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1400) = 1400
+lseek(3, 82308, SEEK_SET)               = 82308
+read(3, "A0\0\0\0aeabi\0\1&\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 49) = 49
+fstat64(3, {st_mode=S_IFREG|0755, st_size=116462, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb6fe9000
+mmap2(NULL, 123412, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb6e44000
+mprotect(0xb6e58000, 28672, PROT_NONE)  = 0
+mmap2(0xb6e5f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13) = 0xb6e5f000
+mmap2(0xb6e61000, 4628, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb6e61000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/arm-linux-gnueabihf/libgcc_s.so.1", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0`\364\0\0004\0\0\0"..., 512) = 512
+lseek(3, 130212, SEEK_SET)              = 130212
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1160) = 1160
+lseek(3, 129880, SEEK_SET)              = 129880
+read(3, "A2\0\0\0aeabi\0\1(\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 51) = 51
+fstat64(3, {st_mode=S_IFREG|0644, st_size=131372, ...}) = 0
+mmap2(NULL, 162704, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb6e1c000
+mprotect(0xb6e3c000, 28672, PROT_NONE)  = 0
+mmap2(0xb6e43000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f) = 0xb6e43000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/arm-linux-gnueabihf/libc.so.6", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\214y\1\0004\0\0\0"..., 512) = 512
+lseek(3, 1194784, SEEK_SET)             = 1194784
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1360) = 1360
+lseek(3, 1194348, SEEK_SET)             = 1194348
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 47) = 47
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1196144, ...}) = 0
+mmap2(NULL, 1238312, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb6ced000
+mprotect(0xb6e0f000, 28672, PROT_NONE)  = 0
+mmap2(0xb6e16000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x121) = 0xb6e16000
+mmap2(0xb6e19000, 9512, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb6e19000
+close(3)                                = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb6fe8000
+set_tls(0xb6fe86d0, 0xb6fe8da8, 0xb6fee048, 0xb6fe86d0, 0xb6fee048) = 0
+mprotect(0xb6e16000, 8192, PROT_READ)   = 0
+mprotect(0xb6e5f000, 4096, PROT_READ)   = 0
+mprotect(0xb6e6c000, 4096, PROT_READ)   = 0
+mprotect(0xb6edd000, 4096, PROT_READ)   = 0
+mprotect(0xb6f9f000, 12288, PROT_READ)  = 0
+mprotect(0xb6fb0000, 4096, PROT_READ)   = 0
+mprotect(0x1d000, 4096, PROT_READ)      = 0
+mprotect(0xb6fed000, 4096, PROT_READ)   = 0
+munmap(0xb6fb2000, 48566)               = 0
+set_tid_address(0xb6fe8278)             = 3948
+set_robust_list(0xb6fe8280, 0xc)        = 0
+futex(0xbe943778, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, b6e60000) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0xb6e4920c, [], SA_SIGINFO|0x4000000}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0xb6e490b4, [], SA_RESTART|SA_SIGINFO|0x4000000}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+brk(0)                                  = 0x66000
+brk(0x87000)                            = 0x87000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_LARGEFILE) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=1534656, ...}) = 0
+mmap2(NULL, 1534656, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb6b76000
+close(3)                                = 0
+stat64("/usr/share/alsa/alsa.conf", {st_mode=S_IFREG|0644, st_size=9184, ...}) = 0
+open("/usr/share/alsa/alsa.conf", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=9184, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb6fe7000
+read(3, "#\n#  ALSA library configuration "..., 4096) = 4096
+read(3, "@args [ CARD DEV SUBDEV ]\n\t@args"..., 4096) = 4096
+read(3, "query.hw {\n\ttype hw\n}\n\ntimer.def"..., 4096) = 992
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0xb6fe7000, 4096)                = 0
+futex(0xb6e6d0a4, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+access("/usr/share/alsa/alsa.conf.d/", R_OK) = 0
+stat64("/usr/share/alsa/alsa.conf.d/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/alsa/alsa.conf.d/", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 3
+fcntl64(3, F_GETFD)                     = 0x1 (flags FD_CLOEXEC)
+getdents(3, /* 3 entries */, 32768)     = 52
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+access("/etc/asound.conf", R_OK)        = -1 ENOENT (No such file or directory)
+access("/home/pi/.asoundrc", R_OK)      = -1 ENOENT (No such file or directory)
+open("/dev/snd/controlC1", O_RDONLY|O_CLOEXEC) = 3
+fcntl64(3, F_SETFD, FD_CLOEXEC)         = 0
+ioctl(3, UI_DEV_CREATE, 0xbe942f0c)     = 0
+close(3)                                = 0
+open("/dev/snd/controlC1", O_RDWR|O_CLOEXEC) = 3
+fcntl64(3, F_SETFD, FD_CLOEXEC)         = 0
+ioctl(3, USBDEVFS_CONTROL or USBDEVFS_CONTROL32, 0xbe9430ac) = 0
+ioctl(3, 0x40045532, 0xbe9430e4)        = 0
+open("/dev/snd/pcmC1D0c", O_RDWR|O_NONBLOCK|O_CLOEXEC) = 4
+fcntl64(4, F_SETFD, FD_CLOEXEC)         = 0
+close(3)                                = 0
+ioctl(4, AGPIOC_ACQUIRE or APM_IOC_STANDBY, 0xbe942f28) = 0
+fcntl64(4, F_GETFL)                     = 0x802 (flags O_RDWR|O_NONBLOCK)
+ioctl(4, AGPIOC_INFO, 0xbe942f1c)       = 0
+clock_gettime(CLOCK_MONOTONIC, {45095, 878566681}) = 0
+ioctl(4, AGPIOC_SETUP, 0xbe942f24)      = 0
+mmap2(NULL, 4096, PROT_READ, MAP_SHARED, 4, 0x80000) = -1 ENXIO (No such device or address)
+ioctl(4, 0xc0844123, 0xbe943048)        = 0
+fcntl64(4, F_GETFL)                     = 0x802 (flags O_RDWR|O_NONBLOCK)
+fcntl64(4, F_SETFL, O_RDWR)             = 0
+ioctl(4, AGPIOC_ACQUIRE or APM_IOC_STANDBY, 0xbe943528) = 0
+rt_sigaction(SIGINT, {0x12570, [INT], SA_RESTART|0x4000000}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, {0x12570, [TERM], SA_RESTART|0x4000000}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGABRT, {0x12570, [ABRT], SA_RESTART|0x4000000}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x11a70, [USR1], SA_RESTART|0x4000000}, {SIG_DFL, [], 0}, 8) = 0
+open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb6fe7000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0xb6fe7000, 4096)                = 0
+open("/usr/share/locale/en_GB.UTF-8/LC_MESSAGES/alsa-utils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_GB.utf8/LC_MESSAGES/alsa-utils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_GB/LC_MESSAGES/alsa-utils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/alsa-utils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/alsa-utils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/alsa-utils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "Recording WAVE 'stdin' : ", 25Recording WAVE 'stdin' : ) = 25
+write(2, "Unsigned 8 bit, ", 16Unsigned 8 bit, )        = 16
+write(2, "Rate 8000 Hz, ", 14Rate 8000 Hz, )          = 14
+write(2, "Mono", 4Mono)                     = 4
+write(2, "\n", 1
+)                       = 1
+ioctl(4, 0xc25c4110, 0xbe940e98)        = 0
+ioctl(4, 0xc25c4110, 0xbe940b38)        = 0
+ioctl(4, 0xc25c4110, 0xbe940b38)        = 0
+ioctl(4, 0xc25c4110, 0xbe940e98)        = 0
+ioctl(4, 0xc25c4110, 0xbe940b38)        = 0
+ioctl(4, 0xc25c4110, 0xbe940b38)        = 0
+ioctl(4, 0xc25c4110, 0xbe940e98)        = 0
+ioctl(4, 0xc25c4110, 0xbe940c00)        = 0
+ioctl(4, 0xc25c4110, 0xbe9408a0)        = 0
+ioctl(4, 0xc25c4110, 0xbe9408a0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940c00)        = 0
+ioctl(4, 0xc25c4110, 0xbe940c00)        = 0
+ioctl(4, 0xc25c4110, 0xbe9408a0)        = 0
+ioctl(4, 0xc25c4110, 0xbe9408a0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940c00)        = 0
+ioctl(4, 0xc25c4110, 0xbe9408a0)        = 0
+ioctl(4, 0xc25c4110, 0xbe9408a0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940c00)        = 0
+ioctl(4, 0xc25c4110, 0xbe940c00)        = 0
+ioctl(4, 0xc25c4110, 0xbe9408a0)        = 0
+ioctl(4, 0xc25c4110, 0xbe9408a0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940c00)        = 0
+ioctl(4, 0xc25c4110, 0xbe9408a0)        = 0
+ioctl(4, 0xc25c4110, 0xbe9408a0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940c00)        = 0
+ioctl(4, 0xc25c4110, 0xbe9406f0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940390)        = 0
+ioctl(4, 0xc25c4110, 0xbe940390)        = 0
+ioctl(4, 0xc25c4110, 0xbe9406f0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940390)        = 0
+ioctl(4, 0xc25c4110, 0xbe940390)        = 0
+ioctl(4, 0xc25c4110, 0xbe9406f0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940958)        = 0
+ioctl(4, 0xc25c4110, 0xbe940958)        = 0
+ioctl(4, 0xc25c4110, 0xbe940958)        = 0
+ioctl(4, 0xc25c4110, 0xbe940958)        = 0
+ioctl(4, 0xc25c4110, 0xbe9406f0)        = 0
+ioctl(4, 0xc25c4110, 0xbe9406f0)        = 0
+ioctl(4, 0xc25c4110, 0xbe9406f0)        = 0
+ioctl(4, 0xc25c4110, 0xbe9406f0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940958)        = 0
+ioctl(4, 0xc25c4110, 0xbe940958)        = 0
+ioctl(4, 0xc25c4110, 0xbe940958)        = 0
+ioctl(4, 0xc25c4110, 0xbe940958)        = 0
+ioctl(4, 0xc25c4110, 0xbe9406f0)        = 0
+ioctl(4, 0xc25c4110, 0xbe9406f0)        = 0
+ioctl(4, 0xc25c4110, 0xbe9406f0)        = 0
+ioctl(4, 0xc25c4110, 0xbe9406f0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940958)        = 0
+ioctl(4, 0xc25c4110, 0xbe940958)        = 0
+ioctl(4, 0xc25c4110, 0xbe940958)        = 0
+ioctl(4, 0xc25c4110, 0xbe940958)        = 0
+ioctl(4, 0xc25c4110, 0xbe940df8)        = 0
+ioctl(4, 0xc25c4110, 0xbe940df8)        = 0
+ioctl(4, 0xc25c4110, 0xbe940df8)        = 0
+ioctl(4, 0xc25c4110, 0xbe940dd0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940dd0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940dd0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940dd0)        = 0
+ioctl(4, 0xc25c4110, 0xbe940e18)        = 0
+ioctl(4, 0xc25c4110, 0xbe940e18)        = 0
+ioctl(4, 0xc25c4110, 0xbe940e18)        = 0
+open("/usr/lib/arm-linux-gnueabihf/alsa-lib/libasound_module_rate_speexrate.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+ioctl(4, 0xc25c4110, 0xbe940a98)        = 0
+ioctl(4, 0xc25c4110, 0xbe940a78)        = 0
+ioctl(4, 0xc25c4110, 0xbe940a78)        = 0
+ioctl(4, 0xc25c4111, 0xbe940a78)        = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0684113, 0xbe9409f4)        = 0
+ioctl(4, 0x80104132, 0xbe940978)        = 0
+mmap2(NULL, 16384, PROT_READ|PROT_WRITE, MAP_SHARED, 4, 0) = 0xb6fba000
+ioctl(4, 0xc0684113, 0x66d48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0x4140, 0xb6fa2000)            = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(2, "Plug PCM: ", 10Plug PCM: )              = 10
+write(2, "Rate conversion PCM (16000, sfor"..., 44Rate conversion PCM (16000, sformat=S16_LE)
+) = 44
+write(2, "Converter: linear-interpolation\n", 32Converter: linear-interpolation
+) = 32
+write(2, "Protocol version: 10002\n", 24Protocol version: 10002
+) = 24
+write(2, "Its setup is:\n", 14Its setup is:
+)         = 14
+write(2, "  stream       : CAPTURE\n", 25  stream       : CAPTURE
+) = 25
+write(2, "  access       : RW_INTERLEAVED\n", 32  access       : RW_INTERLEAVED
+) = 32
+write(2, "  format       : U8\n", 20  format       : U8
+)   = 20
+write(2, "  subformat    : STD\n", 21  subformat    : STD
+)  = 21
+write(2, "  channels     : 1\n", 19  channels     : 1
+)    = 19
+write(2, "  rate         : 8000\n", 22  rate         : 8000
+) = 22
+write(2, "  exact rate   : 8000 (8000/1)\n", 31  exact rate   : 8000 (8000/1)
+) = 31
+write(2, "  msbits       : 8\n", 19  msbits       : 8
+)    = 19
+write(2, "  buffer_size  : 4000\n", 22  buffer_size  : 4000
+) = 22
+write(2, "  period_size  : 1000\n", 22  period_size  : 1000
+) = 22
+write(2, "  period_time  : 125000\n", 24  period_time  : 125000
+) = 24
+write(2, "  tstamp_mode  : NONE\n", 22  tstamp_mode  : NONE
+) = 22
+write(2, "  period_step  : 1\n", 19  period_step  : 1
+)    = 19
+write(2, "  avail_min    : 1000\n", 22  avail_min    : 1000
+) = 22
+write(2, "  period_event : 0\n", 19  period_event : 0
+)    = 19
+write(2, "  start_threshold  : 1\n", 23  start_threshold  : 1
+) = 23
+write(2, "  stop_threshold   : 4000\n", 26  stop_threshold   : 4000
+) = 26
+write(2, "  silence_threshold: 0\n", 23  silence_threshold: 0
+) = 23
+write(2, "  silence_size : 0\n", 19  silence_size : 0
+)    = 19
+write(2, "  boundary     : 1048576000\n", 28  boundary     : 1048576000
+) = 28
+write(2, "Slave: ", 7Slave: )                  = 7
+open("/dev/snd/controlC1", O_RDWR|O_CLOEXEC) = 3
+fcntl64(3, F_SETFD, FD_CLOEXEC)         = 0
+ioctl(3, USBDEVFS_CONTROL or USBDEVFS_CONTROL32, 0xbe940f24) = 0
+ioctl(3, UI_DEV_CREATE, 0xbe940f74)     = 0
+close(3)                                = 0
+write(2, "Hardware PCM card 1 'USB Device "..., 66Hardware PCM card 1 'USB Device 0x46d:0x80a' device 0 subdevice 0
+) = 66
+write(2, "Its setup is:\n", 14Its setup is:
+)         = 14
+write(2, "  stream       : CAPTURE\n", 25  stream       : CAPTURE
+) = 25
+write(2, "  access       : MMAP_INTERLEAVE"..., 34  access       : MMAP_INTERLEAVED
+) = 34
+write(2, "  format       : S16_LE\n", 24  format       : S16_LE
+) = 24
+write(2, "  subformat    : STD\n", 21  subformat    : STD
+)  = 21
+write(2, "  channels     : 1\n", 19  channels     : 1
+)    = 19
+write(2, "  rate         : 16000\n", 23  rate         : 16000
+) = 23
+write(2, "  exact rate   : 16000 (16000/1)"..., 33  exact rate   : 16000 (16000/1)
+) = 33
+write(2, "  msbits       : 16\n", 20  msbits       : 16
+)   = 20
+write(2, "  buffer_size  : 8002\n", 22  buffer_size  : 8002
+) = 22
+write(2, "  period_size  : 2000\n", 22  period_size  : 2000
+) = 22
+write(2, "  period_time  : 125000\n", 24  period_time  : 125000
+) = 24
+write(2, "  tstamp_mode  : NONE\n", 22  tstamp_mode  : NONE
+) = 22
+write(2, "  period_step  : 1\n", 19  period_step  : 1
+)    = 19
+write(2, "  avail_min    : 2000\n", 22  avail_min    : 2000
+) = 22
+write(2, "  period_event : 0\n", 19  period_event : 0
+)    = 19
+write(2, "  start_threshold  : 2\n", 23  start_threshold  : 2
+) = 23
+write(2, "  stop_threshold   : 8002\n", 26  stop_threshold   : 8002
+) = 26
+write(2, "  silence_threshold: 0\n", 23  silence_threshold: 0
+) = 23
+write(2, "  silence_size : 0\n", 19  silence_size : 0
+)    = 19
+write(2, "  boundary     : 2097676288\n", 28  boundary     : 2097676288
+) = 28
+write(2, "  appl_ptr     : 0\n", 19  appl_ptr     : 0
+)    = 19
+write(2, "  hw_ptr       : 0\n", 19  hw_ptr       : 0
+)    = 19
+write(1, "RIFFd\234\0\0WAVE", 12)       = 12
+write(1, "fmt \20\0\0\0", 8)            = 8
+write(1, "\1\0\1\0@\37\0\0@\37\0\0\1\0\10\0", 16) = 16
+write(1, "data@\234\0\0", 8)            = 8
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0x4142, 0x6fd48)               = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\177\177~\200\177\177\177~\177\201\203\204\205\205\206\205\205\206\206\205\204\202\200\200\200\177\200\202\203\203\202\202"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "~~\177\177\177\177\177}}|}}~\177~~\200\177\201\200\200~~}~\177\200\200~\177\177\177"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "zz}|~||{|\200\177\201\203\202\204\202\203\201\200\202~~~\177\200~~\177\177\177\200\200"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "~}}}|}|}|}~~~}|}}\177\201\203\203\203\204\204\203\202\202\202\201\201\202\203"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "~\177~~|}}\177\177\177\177~\177~\177~~~~~\200\203\205\204\203\203\203\204\205\203\204\204"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\210\245\274\303\335\241\222\226\262\203\25$\37[\257\252\247\203v\311\235q\26\0\16J|\214\202\253\304\337"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "^a\177\213c\230\244\216yr[y\212t{p\232\214\210\262\201\243\253\210\227g\177\242\252\202s\205"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "yx}|\202uw|zozy\203\201\214\211\232\226\241\240\237\222\230\203\206tpdbZ]f"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\227\223\216\214\211\204}yonlnmspommlprqu{|\177\202\200\201\202\206\206"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "wtrpmlpsu{}~\200\201|wvog\\Z\\cnqu{\201\212\214\212\203"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\201\200\200\201\203\203\201\200\177~~\177\200\200\201\201\201\202\203\204\205\205\205\204\205\204\203\204\203\203\202\202"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\177\177zx~\177x\202x\200\201\202\201~\202\200\205\200\201\205z\204|\202\202zz\177\204w\204\210"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\227\207|x~\202zqfgmgkecgowsx|\201\211\206\202~\204\214\207\204\202\203"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "y\212\212\200qq\204\225\224\201lq\202\217\205m`fqvmgky\212\225\226\225\225\234\242\240"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\217\215\230\222\211}\203\200ovrwnn{\202\205\207\217\240\234\233\232\245\237\231\221\214\177vy_"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "~{}\206u\205s\207\213\206\177\205\210\213\200}u\177\207urzm\206\205\201{~{v\200\204"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "}~\202\210\215\224\226\231\230\224\214\212\204\203\200\202~}z{|\203\202}yvtsrpqu"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "z{|~}}~\177~}}}}|{}}\177\200\202\202\203\203\203\203\205\204\204\205\204\204\204"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "ygbPO[m\211\223\234\235\210\204vnj`eiv\212\222\232\221\213\207\203\207\204\200\200x"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "nrqtx~\203\203\177|vsty~\206\207\205\201~\201\203\205\206\204\203\201\200\203\210\214\220"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\202~||{{|{{{|\200\204\207\210\206\203\200|xwvtuuwx|\200\204\207\212"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\203\202\201\200\177~}~\177\200\177\177\177}{|}\200\205\207\207\207\206\205\204\202\177{wtqn"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\214\211\203\201\211\206\177z|wtprsuw{\177\210\212\217\217\224\223\221\214\214\212\214\207\211\204"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\227\224\225\214\203xoc_]]`ms}\207\215\226\231\230\232\230\224\217\217\211\205\203\206\215\223\230"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "upheggffjpsu}\201\206\211\215\213\213\211\202\177\203\200{}\200~}\201\206\211"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\204\204\204\202\201\200\200\200\200\201\201\200\200~~}}~}}~\177~~\177\177\177\177\177\201\177\200"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\177\177}}}}\177\201\202\200\201\200\200\200\200\200\177~}|{||||}}~~\177\177\200"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\202\202\202\201\177\177\177\200\201\200\177\200\200\200~~}}}~~~}~\177\177\200\177\201\203\203\203"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "~}|~}\177~\177~\201\177\201\202\202\202\201\202\200\202\202\203\204\201\203\200\201\201\202\201\201\203\201"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "|vuvz|}{|~\177\200\200\200\177~\177\203\205\212\214\214\216\222\226\231\227\216ycZU"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "~\255\254\237\206i`b]V`s\207\237\234\203fV[l|\200~|\200\211\210{nin\203"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "~}\200\206\214\211\203\202\203\201{rqrqols~\202\203\205\204~q[NLHNYi"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "|~{{ulfdds~\214\223\220\206whhnz\206\215\215\211\204\177\204\213\214\222\217\204"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "~~~\200\201\200\200\177\201\202\204\205\206\206\204\201\200}||}\200\201\202\202\202\201\200\200\177\200\177"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\200\201\201\202\201\201\201\200\202\201\200~~}}\200\200\201\201\200\177\200\201\201\201\201\200\201\202\202\202\201"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\200\202\202\202\202\201\201\203\203\203\202\201\201\177\177~||~\201\177\177}}~\177\177\201\202\203\202\202"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "~\177\200~\177}|}~~\177\201\200\200\200~~~}}|~}\177\200\200\201\202\202\202\204\205"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "|}}~~\200\201\201\201\200\177\177~\177\177\200\200\201\201\201\203\204\204\204\203\204\205\203\204\205\203\204"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "\200\200\201\201\201\201\201\201\201\201\200\177\201\201\201\201\200\200~~~~~\201\200\200\177\200\201\202\203\205"..., 1000) = 1000
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+poll([{fd=4, events=POLLIN|POLLERR|POLLNVAL}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+ioctl(4, 0xc0844123, 0x6fd48)           = 0
+write(1, "{\201\177|{}{zvtu|\200\204\200\207\210\215\223\223\223\222\227\225\226\224\217\216\215\213\211\205"..., 1000) = 1000
+ioctl(4, 0x4143, 0xb6fa2000)            = 0
+munmap(0xb6fba000, 16384)               = 0
+ioctl(4, 0x4112, 0xb2b35e00)            = 0
+close(4)                                = 0
+exit_group(0)                           = ?
