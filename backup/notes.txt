@@ -1,0 +1,10 @@
+There are two sound cards, 0 and 1.
+  0 is the onboard sound card that does not have a microphone.
+  1 is the usb sound card that does have a mic. 
+
+alsamixer can be run from ssh command line and presents a curses interface to select the sound card.
+
+amixer is a different program from alsamixer.  --card 1 must be passed as a parameter to have it
+interrogate the usb soundcard.  There may be a may to change the default for the microphone, but
+leave the speakers as the onboard speakers.
+`amixer --card 1 contents`

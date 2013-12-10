@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel PUBLIC "+//IDN python.org//DTD XML Bookmark Exchange Language 1.0//EN//XML" "http://www.python.org/topics/xml/dtds/xbel-1.0.dtd">
+<xbel version="1.0" xmlns:midori="http://www.twotoasts.de">
+<info>
+<metadata owner="http://www.twotoasts.de"/>
+</info>
+<bookmark href="http://blog.oscarliang.net/setup-raspberry-pi-for-remote-access/">
+<title>‪Setup Raspberry Pi For Remote Access - OscarLiang.net</title>
+<info>
+<metadata midori:icon="http://blog.oscarliang.net/wp-content/themes/sempress/images/favicon.ico" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+<bookmark href="http://blog.oscarliang.net/raspberry-pi-voice-recognition-works-like-siri/">
+<title>‪Raspberry Pi Voice Recognition Works Like Siri - OscarLiang.net</title>
+<info>
+<metadata midori:icon="http://blog.oscarliang.net/wp-content/themes/sempress/images/favicon.ico" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+<bookmark href="http://www.raspberrypi.org/">
+<title>‪Raspberry Pi | An ARM GNU/Linux box for $25. Take a byte!</title>
+<info>
+<metadata midori:icon="http://www.raspberrypi.org/favicon.ico" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+<bookmark href="http://www.raspberrypi.org/phpBB3/viewtopic.php?uid=19416&amp;f=38&amp;t=27290&amp;start=0">
+<title>‪Raspberry Pi • View topic - Raspberry Pi - Speech To Text</title>
+<info>
+<metadata midori:icon="http://www.raspberrypi.org/favicon.ico" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+<bookmark href="https://duckduckgo.com/?q=raspberry%20pi%20voice%20like%20siri&amp;t=raspberrypi">
+<title>‪raspberry pi voice like siri at DuckDuckGo</title>
+<info>
+<metadata midori:dont-write-history="1" midori:icon="https://duckduckgo.com/favicon.ico" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+<bookmark href="http://stackoverflow.com/questions/how-to-ask">
+<title>‪How to Ask - Stack Overflow</title>
+<info>
+<metadata midori:icon="http://cdn.sstatic.net/stackoverflow/img/favicon.ico" midori:history-step="2" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+<bookmark href="http://www.jeremymorgan.com/tutorials/raspberry-pi/how-to-linux/">
+<title>‪Raspberry Pi How to: Learning Linux Commands - Raspberry Pi Blog</title>
+<info>
+<metadata midori:icon="text-html" midori:history-step="2" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+<bookmark href="http://blog.oscarliang.net/forums/">
+<title>‪Forums - OscarLiang.net</title>
+<info>
+<metadata midori:icon="http://blog.oscarliang.net/wp-content/themes/sempress/images/favicon.ico" midori:history-step="2" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+<bookmark href="http://vube.com/contest?t=p&amp;p=4ds&amp;utm_source=san&amp;utm_medium=d&amp;utm_campaign=na&amp;utm_content=2553">
+<title>‪Vube.com</title>
+<info>
+<metadata midori:icon="text-html" midori:history-step="2" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+<bookmark href="http://www.mediafire.com/download/ahd677sxyfpf1m7/face_detect_rpi.zip">
+<title>‪face_detect_rpi</title>
+<info>
+<metadata midori:dont-write-history="1" midori:icon="text-html" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+</xbel>
