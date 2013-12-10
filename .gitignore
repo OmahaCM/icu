@@ -1,6 +1,9 @@
 #backup/
 .vnc/passwd
 .ssh/id_rsa
+.ssh/known_hosts
+.config/midori/session.xbel
+.config/midori/cookies.db
 .profile
 .bashrc
 .aptitude/cache
